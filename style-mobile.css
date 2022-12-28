@@ -87,6 +87,12 @@ body {
     color: #FFF;
     font-size: .8em;
     box-shadow: -1px 12px 14px -4px rgba(0,0,0,0.31);
+    transition: .3s;
+}
+
+.button__price:hover {
+    background-color: hsl(71, 93%, 61%);
+    cursor: pointer;
 }
 
 .article__why {
